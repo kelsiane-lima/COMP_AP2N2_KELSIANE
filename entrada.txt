@@ -1,0 +1,14 @@
+ket_inicio
+	float capital
+	float taxa
+	float tempo
+	float jsimples
+	
+	capital = ketinf()
+taxa = ketinf()
+tempo = ketinf()
+
+jsimples = capital * taxa * tempo
+
+ketoutf(jsimples)
+ket_fim

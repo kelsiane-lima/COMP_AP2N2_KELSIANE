@@ -1,0 +1,32 @@
+ket_inicio
+	
+	float a
+	float b
+	float c
+	
+	float triangulo
+	float circulo
+	float quadrado
+	float trapezio
+	float retangulo
+	string z 
+
+	z = ketins()
+	a = ketinf()
+	b = ketinf()
+	c = ketinf()
+	
+	triangulo = (a*c)/2
+	circulo = 3.14159*c*c
+	trapezio = ((a+b)*c)/2
+	quadrado = b*b
+	retangulo = a*b 
+	
+	ketoutf(triangulo)
+	ketoutf(circulo)
+	ketoutf(trapezio)
+	ketoutf(quadrado)
+	ketoutf(retangulo)
+	ketouts(z)
+
+ket_fim
